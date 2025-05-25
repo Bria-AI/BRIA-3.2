@@ -1,7 +1,6 @@
 {
   "_class_name": "BriaTransformer2DModel",
-  "_diffusers_version": "0.33.1",
-  "_name_or_path": "briaai/BRIA-3.2",
+  "_diffusers_version": "0.32.2",
   "attention_head_dim": 96,
   "axes_dims_rope": [
     0,
