@@ -26,16 +26,16 @@ extra_gated_fields:
 
 # What's New
 
-While BRIA 2.3 excels in realism, BRIA 3.2-DPO-TEXT trained to produce **high-quality illustrations and graphics**. To allow better control, BRIA 3.2-DPO-TEXT was designed to significantly improve **prompt alignment**, meaning the model is much better at following the user’s textual descriptions, while also supporting longer prompts. Additionally, BRIA 3.2-DPO-TEXT introduces a leap forward in **fine-tuning**, making it easier and more efficient to adapt the model to new styles and creative directions.
+While BRIA 2.3 excels in realism, BRIA 3.2 trained to produce **high-quality illustrations and graphics**. To allow better control, BRIA 3.2 was designed to significantly improve **prompt alignment**, meaning the model is much better at following the user’s textual descriptions, while also supporting longer prompts. Additionally, BRIA 3.2 introduces a leap forward in **fine-tuning**, making it easier and more efficient to adapt the model to new styles and creative directions.
 
-<!-- [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA 3.2-DPO-TEXT)
+<!-- [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA 3.2)
  -->
 
 
 
-# BRIA 3.2-DPO-TEXT: Text-to-Image Model for Commercial Licensing
+# BRIA 3.2: Text-to-Image Model for Commercial Licensing
 
-BRIA 3.2-DPO-TEXT is our new groundbreaking text-to-image model explicitly designed for commercial applications. This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. Bria AI licenses the foundation model with full legal liability coverage. Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
+BRIA 3.2 is our new groundbreaking text-to-image model explicitly designed for commercial applications. This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. Bria AI licenses the foundation model with full legal liability coverage. Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
 
 For more information, please visit our [website](https://bria.ai/).
 
@@ -49,11 +49,11 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 
 ### Get Access
-Interested in BRIA 3.2-DPO-TEXT? Purchase is required to license and access BRIA 3.2-DPO-TEXT, ensuring royalty management with our data partners and full liability coverage for commercial use. 
+Interested in BRIA 3.2? Purchase is required to license and access BRIA 3.2, ensuring royalty management with our data partners and full liability coverage for commercial use. 
 
 Are you a startup or a student? We encourage you to apply for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) to request access. This program are designed to support emerging businesses and academic pursuits with our cutting-edge technology.
 
-Contact us today to unlock the potential of BRIA 3.2-DPO-TEXT! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
+Contact us today to unlock the potential of BRIA 3.2! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
 
 <!-- ![](photo-grid-2-3.jpeg) -->
 
@@ -74,7 +74,7 @@ Contact us today to unlock the potential of BRIA 3.2-DPO-TEXT! By submitting the
 - **License:** [Commercial licensing terms & conditions.](https://bria.ai/customer-general-terms-and-conditions)
 - Purchase is required to license and access the model.
 
-- **Model Description:** BRIA 3.2-DPO-TEXT is a text-to-image model trained exclusively on a professional-grade, licensed dataset. It is designed for commercial use and includes full legal liability coverage.
+- **Model Description:** BRIA 3.2 is a text-to-image model trained exclusively on a professional-grade, licensed dataset. It is designed for commercial use and includes full legal liability coverage.
 - **Resources for more information:** [BRIA AI](https://bria.ai/)
 
 
@@ -108,7 +108,7 @@ import torch
 from pipeline_bria import BriaPipeline, BriaTransformer2DModel
 
 # trust_remote_code = True - allows loading a transformer which is not present at the transformers library(from transformer/bria_transformer.py)
-transformer = BriaTransformer2DModel.from_pretrained("briaai/BRIA-3.2-DPO-TEXT",subfolder='transformer',torch_dtype=torch.bfloat16)
+transformer = BriaTransformer2DModel.from_pretrained("briaai/BRIA-3.2",subfolder='transformer',torch_dtype=torch.bfloat16)
 pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.1", transformer=transformer, torch_dtype=torch.bfloat16,trust_remote_code=True)
 pipe.to(device="cuda")
 
