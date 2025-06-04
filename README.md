@@ -55,8 +55,7 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 
 
-<!-- ![](32-photo.jpg) -->
-
+![](32-photo.jpg)
 
 
 
