@@ -24,12 +24,15 @@ extra_gated_fields:
   By submitting this form, I agree to BRIA’s Privacy policy and Terms & conditions, see links below: checkbox
 ---
 
-# What's New
+# TL;DR
 
-While BRIA 2.3 excels in realism, BRIA 3.2 trained to produce **high-quality illustrations and graphics**. To allow better control, BRIA 3.2 was designed to significantly improve **prompt alignment**, meaning the model is much better at following the user’s textual descriptions, while also supporting longer prompts. Additionally, BRIA 3.2 introduces a leap forward in **fine-tuning**, making it easier and more efficient to adapt the model to new styles and creative directions.
+BRIA 3.2 is our latest commercial-ready text-to-image model that significantly improves aesthetics and excels at rendering clear, readable text, particularly optimized for short phrases (1-6 words). Still ethically trained on licensed data, it offers unmatched legal compliance and customization.
 
 <!-- [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA 3.2)
  -->
+
+
+
 
 
 
@@ -42,8 +45,17 @@ For more information, please visit our [website](https://bria.ai/).
 Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
 
 
+# What's New
+
+- **Improved Aesthetics**: 55% user preference for BRIA 3.2 over BRIA 3.1.
+
+- **Superior Text Rendering**: The model is optimized to generate short text consists of 1-6 words. OCR Score improvement from 5% (3.1) to 60% (3.2).
+
+- **Consistent Prompt Alignment**: Maintains high-quality textual description adherence.
 
 
+
+<!-- ![](32-photo.jpg) -->
 
 
 
@@ -55,7 +67,6 @@ Are you a startup or a student? We encourage you to apply for our [Startup Progr
 
 Contact us today to unlock the potential of BRIA 3.2! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
 
-<!-- ![](photo-grid-2-3.jpeg) -->
 
 # Key Features
 
