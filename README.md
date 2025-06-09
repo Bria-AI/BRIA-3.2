@@ -39,7 +39,7 @@ BRIA 3.2 is our latest commercial-ready text-to-image model that significantly i
 
 # BRIA 3.2: Text-to-Image Model for Commercial Licensing
 
-BRIA 3.2 is our new groundbreaking text-to-image model explicitly designed for commercial applications. This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. Bria AI licenses the foundation model with full legal liability coverage. Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
+BRIA 3.2 is our latest text-to-image model explicitly designed for commercial applications. This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. Bria AI licenses the foundation model with full legal liability coverage. Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
 
 For more information, please visit our [website](https://bria.ai/).
 
