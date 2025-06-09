@@ -64,9 +64,9 @@ Bria 3.2 is avaialabe everywhere you build, either as source-code and weights, C
 
 - **API Endpoint**: [Bria.ai](https://platform.bria.ai/console/api/image-generation)
 - **ComfyUI**: [Use it in workflows](https://github.com/Bria-AI/ComfyUI-BRIA-API)
-- **Interested in BRIA 3.1 weights?** Purchase is required to license and access BRIA 3.1, ensuring royalty management with our data partners and full liability coverage for commercial use.
+- **Interested in BRIA 3.2 weights?** Purchase is required to license and access BRIA 3.2, ensuring royalty management with our data partners and full liability coverage for commercial use.
   - Are you a startup or a student? We encourage you to apply for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) to request access. This program are designed to support emerging businesses and academic pursuits with our cutting-edge technology.
-  - Contact us today to unlock the potential of BRIA 3.1! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
+  - Contact us today to unlock the potential of BRIA 3.2! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
 - **License:** [Commercial licensing terms & conditions.](https://bria.ai/customer-general-terms-and-conditions)
 
 
