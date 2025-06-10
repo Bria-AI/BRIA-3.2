@@ -24,6 +24,11 @@ extra_gated_fields:
   By submitting this form, I agree to BRIA’s Privacy policy and Terms & conditions, see links below: checkbox
 ---
 
+
+
+## BRIA 3.2 is in Early Access Stage, please contact us for more information
+
+
 # TL;DR
 
 BRIA 3.2 is our latest commercial-ready text-to-image model that significantly improves aesthetics over Bria 3.1 and **excels at rendering clear, readable text**, particularly optimized for short phrases (1-6 words). Still ethically trained on licensed data, it offers unmatched legal compliance and customization.
