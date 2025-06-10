@@ -10,7 +10,7 @@ tags:
 - legal liability
 - commercial use
 extra_gated_description: 
-  Model weights from BRIA AI can be obtained with the purchase of a commercial license. Fill in the form below and we reach out to you. 
+  BRIA 3.2 is in Early Access Stage, please contact us for more information. Model weights from BRIA AI can be obtained with the purchase of a commercial license. Fill in the form below and we reach out to you. 
   Need API Access? Get it [here](https://platform.bria.ai/console/api/image-generation) (1K Monthly Free API Calls).
   Startup or a student? Get access by applying for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) 
 extra_gated_heading: "Fill in this form to request a commercial license for the model"
