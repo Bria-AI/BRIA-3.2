@@ -1,0 +1,25 @@
+{
+  "_class_name": "BriaPipeline",
+  "_diffusers_version": "0.33.1",
+  "_name_or_path": "briaai/BRIA-3.1",
+  "scheduler": [
+    "diffusers",
+    "FlowMatchEulerDiscreteScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "T5TokenizerFast"
+  ],
+  "transformer": [
+    "transformer_bria",
+    "BriaTransformer2DModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
+}

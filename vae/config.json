@@ -1,0 +1,38 @@
+{
+  "_class_name": "AutoencoderKL",
+  "_diffusers_version": "0.33.1",
+  "_name_or_path": "/home/ubuntu/.cache/huggingface/hub/models--briaai--BRIA-3.1/snapshots/82e82697e2a3a67726e099f5d2ba15e4520ff93c/vae",
+  "act_fn": "silu",
+  "block_out_channels": [
+    128,
+    256,
+    512,
+    512
+  ],
+  "down_block_types": [
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D"
+  ],
+  "force_upcast": false,
+  "in_channels": 3,
+  "latent_channels": 4,
+  "latents_mean": null,
+  "latents_std": null,
+  "layers_per_block": 2,
+  "mid_block_add_attention": true,
+  "norm_num_groups": 32,
+  "out_channels": 3,
+  "sample_size": 512,
+  "scaling_factor": 0.13025,
+  "shift_factor": null,
+  "up_block_types": [
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D"
+  ],
+  "use_post_quant_conv": true,
+  "use_quant_conv": true
+}
