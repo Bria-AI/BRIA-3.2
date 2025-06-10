@@ -118,16 +118,15 @@ try:
 except:
     local_dir = '.'
     
-hf_hub_download(repo_id="briaai/BRIA-3.1", filename='pipeline_bria.py', local_dir=local_dir)
-hf_hub_download(repo_id="briaai/BRIA-3.1", filename='transformer_bria.py', local_dir=local_dir)
-hf_hub_download(repo_id="briaai/BRIA-3.1", filename='bria_utils.py', local_dir=local_dir)
+hf_hub_download(repo_id="briaai/BRIA-3.2", filename='pipeline_bria.py', local_dir=local_dir)
+hf_hub_download(repo_id="briaai/BRIA-3.2", filename='transformer_bria.py', local_dir=local_dir)
+hf_hub_download(repo_id="briaai/BRIA-3.2", filename='bria_utils.py', local_dir=local_dir)
 
 import torch
 from pipeline_bria import BriaPipeline, BriaTransformer2DModel
 
 # trust_remote_code = True - allows loading a transformer which is not present at the transformers library(from transformer/bria_transformer.py)
-transformer = BriaTransformer2DModel.from_pretrained("briaai/BRIA-3.2",subfolder='transformer',torch_dtype=torch.bfloat16)
-pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.1", transformer=transformer, torch_dtype=torch.bfloat16,trust_remote_code=True)
+pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.2", torch_dtype=torch.bfloat16,trust_remote_code=True)
 pipe.to(device="cuda")
 
 prompt = "A portrait of a Beautiful and playful ethereal singer, golden designs, highly detailed, blurry background"
