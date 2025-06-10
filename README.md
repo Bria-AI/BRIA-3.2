@@ -28,7 +28,7 @@ extra_gated_fields:
 
 BRIA 3.2 is our latest commercial-ready text-to-image model that significantly improves aesthetics over Bria 3.1 and **excels at rendering clear, readable text**, particularly optimized for short phrases (1-6 words). Still ethically trained on licensed data, it offers unmatched legal compliance and customization.
 
-[CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-3.2)
+[CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-3.2-API)
 
 
 
