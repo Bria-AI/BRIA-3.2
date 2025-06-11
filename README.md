@@ -53,7 +53,10 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 # What's New
 
-- **Improved Aesthetics**: 55% user preference for BRIA 3.2 over BRIA 3.1.
+- **Improved Aesthetics**:
+
+  - 65% user preference for BRIA 3.2 over BRIA 3.1.
+  - 76% user preference for BRIA 3.2 over BRIA 2.3.
 
 - **Superior Text Rendering**: The model is optimized to generate short text consists of 1-6 words. OCR Score improvement from 5% (3.1) to 70% (3.2).
 
