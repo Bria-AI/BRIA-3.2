@@ -150,6 +150,6 @@ images = pipe(prompt=prompt, negative_prompt=negative_prompt, height=1024, width
 `((1024,1024), (1280, 768), (1344, 768), (832, 1216), (1152, 832), (1216, 832), (960,1088)`
 
 4. Use 30-50 steps (higher is better)
-5. Use `guidance_scale` of 5.0
+5. Use `guidance_scale` of  5.0
 
 
