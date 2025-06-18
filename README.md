@@ -85,6 +85,8 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 # Key Features
 
+- **Architecture**: 4B parameter, rectified flow transformer based model with T5 text encoder.
+
 - **Legally Compliant**: Offers full legal liability coverage for copyright and privacy infringements. Thanks to training on 100% licensed data from leading data partners, we ensure the ethical use of content.
 
 - **Patented Attribution Engine**: Our attribution engine is our way to compensate our data partners, powered by our proprietary and patented algorithms. 
