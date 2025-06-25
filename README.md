@@ -44,6 +44,10 @@ For more information, please visit our [website](https://bria.ai/).
 
 Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
 
+### For Commercial Use
+
+
+- **Purchase**: for commercial license simply click [Here](https://bria.ai/contact-us?hsCtaAttrib=114250296256).
 
 # What's New
 
