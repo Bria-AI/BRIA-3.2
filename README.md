@@ -1,27 +1,24 @@
 ---
-license: other
-license_name: bria-t2i
-license_link: https://bria.ai/customer-general-terms-and-conditions
 library_name: diffusers
-inference: False
-    
+inference: false
 tags:
 - text-to-image
 - legal liability
-- commercial use
-extra_gated_description: 
-  BRIA 3.2 is in Early Access Stage, please contact us for more information. Model weights from BRIA AI can be obtained with the purchase of a commercial license. Fill in the form below and we reach out to you. 
-  Need API Access? Get it [here](https://platform.bria.ai/console/api/image-generation) (1K Monthly Free API Calls).
-  Startup or a student? Get access by applying for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) 
-extra_gated_heading: "BRIA 3.2 is in Early Access Stage, please contact us for more information"
+- Non Commercial Use
+extra_gated_description: >-
+  Bria AI Model weights are open source for non commercial use only, per the
+  provided [license](https://creativecommons.org/licenses/by-nc/4.0/deed.en).
+extra_gated_heading: Fill in this form to immediatly access the model for non commercial use
 extra_gated_fields:
   Name: text
-  Company/Org name: text
-  Org Type (Early/Growth Startup, Enterprise, Academy): text
-  Role: text
-  Country: text
   Email: text
-  By submitting this form, I agree to BRIA’s Privacy policy and Terms & conditions, see links below: checkbox
+  Company/Org name: text
+  Company Website URL: text
+  Discord user: text
+  I agree to BRIA’s Privacy policy, Terms & conditions, and acknowledge Non commercial use to be Personal use / Academy / Non profit (direct or indirect): checkbox
+license: other
+license_name: bria-3.2
+license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
 ---
 
 
