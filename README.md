@@ -28,7 +28,7 @@ license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
 Bria 3.2 is the next-generation commercial-ready text-to-image model.
 **With just 4 billion parameters**, it provides exceptional aesthetics and text rendering, evaluated to provide **on par results to leading open-source models, and outperforming other licensed models**.
 
-In Addition to being **built entirely on licensed data**, 3.2 provides several advantages for enterprise and commercial use:
+In addition to being **built entirely on licensed data**, 3.2 provides several advantages for enterprise and commercial use:
 * Efficient Compute - the model is X3 smaller than the equivalent models in the market (4B parameters vs 12B parameters other open source models)
 * Architecture Consistency: Same architecture as 3.1—ideal for users looking to upgrade without disruption.
 * Fine-tuning Speedup: 2x faster fine-tuning on L40S and A100.
