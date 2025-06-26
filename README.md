@@ -25,7 +25,15 @@ license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
 
 # TL;DR
 
-BRIA 3.2 is our latest commercial-ready text-to-image model that significantly improves aesthetics over Bria 3.1 and **excels at rendering clear, readable text**, particularly optimized for short phrases (1-6 words). Still ethically trained on licensed data, it offers unmatched legal compliance and customization.
+Bria 3.2 is the next-generation commercial-ready text-to-image model.
+**With just 4 billion parameters**, it provides exceptional eathtetics and text rendering, evaluated to provide **equevalent results to Flux.1** 
+
+In Addition to being **built entirely on licensed data**, 3.2 provides several advantages for enterprise and commercial use:
+* Efficient Compute - the model is X3 smaller than the equevelant models in the market (4B parameters vs 12B parameters Flux.1)
+* Architecture Consistency: Same architecture as 3.1—ideal for users looking to upgrade without disruption.
+* Latency Gains: 6.84-second inference latency on an L40S (reduced from 10.6s with Bria 3.1).
+* Fine-tuning Speedup: 2x faster fine-tuning on L40S, A10, and A100 (vs Bria 3.1).
+
 
 [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-3.2-API)
 
@@ -36,20 +44,21 @@ BRIA 3.2 is our latest commercial-ready text-to-image model that significantly i
 
 
 
-# BRIA 3.2: Text-to-Image Model for Commercial Licensing
+# BRIA 3.2: Training data and Commercial Licensing
 
-BRIA 3.2 is our latest text-to-image model explicitly designed for commercial applications. This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. Bria AI licenses the foundation model with full legal liability coverage. Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
+BRIA 3.2 is our latest text-to-image model explicitly designed for commercial applications. 
+This model combines technological innovation with ethical responsibility and legal security, setting a new standard in the AI industry. 
+Bria AI licenses the foundation model with full legal liability coverage. 
+Our dataset does not contain copyrighted materials, such as fictional characters, logos, trademarks, public figures, harmful content, or privacy-infringing content.
 
 For more information, please visit our [website](https://bria.ai/).
 
 Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
 
-### For Commercial Use
+### For Commercial License : click [Here](https://bria.ai/contact-us?hsCtaAttrib=114250296256).
 
 
-- **Purchase**: for commercial license simply click [Here](https://bria.ai/contact-us?hsCtaAttrib=114250296256).
-
-# What's New
+# What's New vs pervious models:
 
 - **Improved Aesthetics**:
 
@@ -62,23 +71,15 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 
 
-
-
-
 ### Get Access
 Bria 3.2 is avaialabe everywhere you build, either as source-code and weights, ComfyUI nodes or API endpoints.
 
 - **API Endpoint**: [Bria.ai](https://platform.bria.ai/console/api/image-generation) , [Fal.ai](https://fal.ai/models/bria/text-to-image/3.2)
 - **ComfyUI**: [Use it in workflows](https://github.com/Bria-AI/ComfyUI-BRIA-API)
-- **Interested in BRIA 3.2 weights?** Purchase is required to license and access BRIA 3.2, ensuring royalty management with our data partners and full liability coverage for commercial use.
-  - Are you a startup or a student? We encourage you to apply for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) to request access. This program are designed to support emerging businesses and academic pursuits with our cutting-edge technology.
-  - Contact us today to unlock the potential of BRIA 3.2! By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
-- **License:** [Commercial licensing terms & conditions.](https://bria.ai/customer-general-terms-and-conditions)
+- **Interested in BRIA 3.2 source code and weights for commercial use?** Purchase is required to license BRIA 3.2 got commercial use, ensuring royalty management with our data partners and full liability coverage.
+- Are you a startup or a student? We encourage you to apply for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) to request access. This program are designed to support emerging businesses and academic pursuits with our cutting-edge technology.
+- By submitting the form above, you agree to BRIA’s [Privacy policy](https://bria.ai/privacy-policy/) and [Terms & conditions](https://bria.ai/terms-and-conditions/).
 
-
-For more information, please visit our [website](https://bria.ai/).
-
-Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
 
 
 # Key Features
@@ -97,12 +98,7 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 - **Developed by:** BRIA AI
 - **Model type:** Latent diffusion text-to-image model
-- **License:** [Commercial licensing terms & conditions.](https://bria.ai/customer-general-terms-and-conditions)
-- Purchase is required to license and access the model.
-
-- **Model Description:** BRIA 3.2 is a text-to-image model trained exclusively on a professional-grade, licensed dataset. It is designed for commercial use and includes full legal liability coverage.
 - **Resources for more information:** [BRIA AI](https://bria.ai/)
-
 
 
 
