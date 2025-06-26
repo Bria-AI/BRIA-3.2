@@ -26,17 +26,15 @@ license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
 # TL;DR
 
 Bria 3.2 is the next-generation commercial-ready text-to-image model.
-**With just 4 billion parameters**, it provides exceptional aesthetics and text rendering, evaluated to provide **equivalent results to Flux.1, and outperform Adobe FireFly**.
+**With just 4 billion parameters**, it provides exceptional aesthetics and text rendering, evaluated to provide **on par results to leading open-source models, and outperforming other licensed models**.
 
 In Addition to being **built entirely on licensed data**, 3.2 provides several advantages for enterprise and commercial use:
-* Efficient Compute - the model is X3 smaller than the equivalent models in the market (4B parameters vs 12B parameters Flux.1)
+* Efficient Compute - the model is X3 smaller than the equivalent models in the market (4B parameters vs 12B parameters other open source models)
 * Architecture Consistency: Same architecture as 3.1—ideal for users looking to upgrade without disruption.
-* Latency Gains: 6.84-second inference latency on an L40S (reduced from 10.6s with Bria 3.1).
-* Fine-tuning Speedup: 2x faster fine-tuning on L40S, A10, and A100 (vs Bria 3.1).
+* Fine-tuning Speedup: 2x faster fine-tuning on L40S and A100.
 
 
 [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-3.2-API)
-
 
 
 
@@ -99,7 +97,6 @@ Bria 3.2 is available everywhere you build, either as source-code and weights, C
 - **Developed by:** BRIA AI
 - **Model type:** Latent diffusion text-to-image model
 - **Resources for more information:** [BRIA AI](https://bria.ai/)
-
 
 
 
