@@ -26,10 +26,10 @@ license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
 # TL;DR
 
 Bria 3.2 is the next-generation commercial-ready text-to-image model.
-**With just 4 billion parameters**, it provides exceptional eathtetics and text rendering, evaluated to provide **equevalent results to Flux.1** 
+**With just 4 billion parameters**, it provides exceptional aesthetics and text rendering, evaluated to provide **equivalent results to Flux.1** 
 
 In Addition to being **built entirely on licensed data**, 3.2 provides several advantages for enterprise and commercial use:
-* Efficient Compute - the model is X3 smaller than the equevelant models in the market (4B parameters vs 12B parameters Flux.1)
+* Efficient Compute - the model is X3 smaller than the equivalent models in the market (4B parameters vs 12B parameters Flux.1)
 * Architecture Consistency: Same architecture as 3.1—ideal for users looking to upgrade without disruption.
 * Latency Gains: 6.84-second inference latency on an L40S (reduced from 10.6s with Bria 3.1).
 * Fine-tuning Speedup: 2x faster fine-tuning on L40S, A10, and A100 (vs Bria 3.1).
@@ -72,7 +72,7 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 
 
 ### Get Access
-Bria 3.2 is avaialabe everywhere you build, either as source-code and weights, ComfyUI nodes or API endpoints.
+Bria 3.2 is available everywhere you build, either as source-code and weights, ComfyUI nodes or API endpoints.
 
 - **API Endpoint**: [Bria.ai](https://platform.bria.ai/console/api/image-generation) , [Fal.ai](https://fal.ai/models/bria/text-to-image/3.2)
 - **ComfyUI**: [Use it in workflows](https://github.com/Bria-AI/ComfyUI-BRIA-API)
