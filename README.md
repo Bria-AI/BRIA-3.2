@@ -72,7 +72,7 @@ Join our [Discord community](https://discord.gg/Nxe9YW9zHS) for more information
 ### Get Access
 Bria 3.2 is available everywhere you build, either as source-code and weights, ComfyUI nodes or API endpoints.
 
-- **API Endpoint**: [Bria.ai](https://platform.bria.ai/console/api/image-generation) , [Fal.ai](https://fal.ai/models/bria/text-to-image/3.2)
+- **API Endpoint**: [Bria.ai](https://docs.bria.ai/image-generation/endpoints/text-to-image-base) , [Fal.ai](https://fal.ai/models/bria/text-to-image/3.2)
 - **ComfyUI**: [Use it in workflows](https://github.com/Bria-AI/ComfyUI-BRIA-API)
 - **Interested in BRIA 3.2 source code and weights for commercial use?** Purchase is required to license BRIA 3.2 got commercial use, ensuring royalty management with our data partners and full liability coverage.
 - Are you a startup or a student? We encourage you to apply for our [Startup Program](https://pages.bria.ai/the-visual-generative-ai-platform-for-builders-startups-plan?_gl=1*cqrl81*_ga*MTIxMDI2NzI5OC4xNjk5NTQ3MDAz*_ga_WRN60H46X4*MTcwOTM5OTMzNC4yNzguMC4xNzA5Mzk5MzM0LjYwLjAuMA..) to request access. This program are designed to support emerging businesses and academic pursuits with our cutting-edge technology.
