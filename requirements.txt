@@ -1,0 +1,5 @@
+diffusers>=0.30.0
+huggingface_hub>=0.30.2
+numpy>=2.3.1
+torch>=2.2.2
+transformers>=4.44.2
