@@ -1,26 +1,3 @@
----
-library_name: diffusers
-inference: false
-tags:
-- text-to-image
-- legal liability
-- Non Commercial Use
-extra_gated_description: >-
-  Bria AI Model weights are open source for non commercial use only, per the
-  provided [license](https://creativecommons.org/licenses/by-nc/4.0/deed.en).
-extra_gated_heading: Fill in this form to immediatly access the model for non commercial use
-extra_gated_fields:
-  Name: text
-  Email: text
-  Company/Org name: text
-  Company Website URL: text
-  Discord user: text
-  I agree to BRIA’s Privacy policy, Terms & conditions, and acknowledge Non commercial use to be Personal use / Academy / Non profit (direct or indirect): checkbox
-license: other
-license_name: bria-3.2
-license_link: https://creativecommons.org/licenses/by-nc/4.0/deed.en
----
-
 
 
 # TL;DR
