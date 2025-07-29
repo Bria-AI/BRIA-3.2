@@ -65,7 +65,7 @@ Bria 3.2 is available everywhere you build, either as source-code and weights, C
 
 - **Patented Attribution Engine**: Our attribution engine is our way to compensate our data partners, powered by our proprietary and patented algorithms. 
 
-- **Enterprise-Ready**: Specifically designed for business applications, Bria AI 3.0 delivers high-quality, compliant imagery for a variety of commercial needs.
+- **Enterprise-Ready**: Specifically designed for business applications, Bria AI 3.2 delivers high-quality, compliant imagery for a variety of commercial needs.
 
 - **Customizable Technology**: Provides access to source code and weights for extensive customization, catering to specific business requirements.
 
