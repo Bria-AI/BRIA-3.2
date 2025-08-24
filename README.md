@@ -1,7 +1,5 @@
 # BRIA 3.2
-<p align="center">
-  <img src="https://platform.bria.ai/assets/Bria-logo-5e0c53b1.svg" alt="BRIA Logo" width="200" />
-</p>
+<p align="center"><img src="https://platform.bria.ai/assets/Bria-logo-5e0c53b1.svg" alt="BRIA Logo" width="400" /></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Commercial-blue.svg" alt="License Badge" />
