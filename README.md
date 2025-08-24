@@ -111,7 +111,7 @@ from diffusers import BriaPipeline
 pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.2", torch_dtype=torch.bfloat16)
 pipe.to(device="cuda")
 
-prompt = "A portrait of a Beautiful and playful ethereal singer, golden designs, highly detailed, blurry background"
+prompt = "A vibrant birthday cake displayed on a festive table, frosted in smooth sky-blue icing with colorful sprinkles along the edges. Piped in bold white frosting across the top are the words “BIG BOY NOW” in playful, slightly uneven lettering. The cake is decorated with mini stars, balloons made of fondant, and a single candle burning brightly in the center. Soft, warm lighting highlights the texture of the frosting, while a blurred background of party decorations—streamers, confetti, and balloons—adds a joyful, celebratory atmosphere."
 negative_prompt = "Logo,Watermark,Ugly,Morbid,Extra fingers,Poorly drawn hands,Mutation,Blurry,Extra limbs,Gross proportions,Missing arms,Mutated hands,Long neck,Duplicate,Mutilated,Mutilated hands,Poorly drawn face,Deformed,Bad anatomy,Cloned face,Malformed limbs,Missing legs,Too many fingers"
 
 images = pipe(prompt=prompt, negative_prompt=negative_prompt, height=1024, width=1024).images[0]
