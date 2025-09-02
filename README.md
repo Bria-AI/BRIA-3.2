@@ -13,6 +13,12 @@
     <img src="https://img.shields.io/badge/🤗%20HuggingFace-Space-blueviolet.svg" alt="HuggingFace Space Badge" />
   </a>
 </p>
+<p align="center">
+<a href="[https://huggingface.co/spaces/briaai/BRIA-3.2](https://go.bria.ai/46gzn20)">
+    <img src=https://img.shields.io/badge/check%20out%20our%20platform-8A2BE2 />
+  </a>
+</p>
+
 
 
 # TL;DR
