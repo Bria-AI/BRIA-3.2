@@ -132,5 +132,6 @@ images = pipe(prompt=prompt, negative_prompt=negative_prompt, height=1024, width
 
 4. Use 30-50 steps (higher is better)
 5. Use `guidance_scale` of  5.0
+6. run on Nvidia L40S or above for better results.
 
 
