@@ -1,3 +1,24 @@
+# BRIA 3.2
+<p align="center"><img src="https://platform.bria.ai/assets/Bria-logo-5e0c53b1.svg" alt="BRIA Logo" width="400" /></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-Commercial-blue.svg" alt="License Badge" />
+  <img src="https://img.shields.io/badge/Model%20Size-4B%20parameters-green.svg" alt="Model Size Badge" />
+  <img src="https://img.shields.io/badge/Trained%20on-Licensed%20Data-brightgreen.svg" alt="Licensed Data Badge" />
+  <img src="https://img.shields.io/badge/Commercial%20Ready-Yes-orange.svg" alt="Commercial Ready Badge" />
+  <a href="https://huggingface.co/briaai/BRIA-3.2">
+    <img src="https://img.shields.io/badge/🤗%20HuggingFace-Model-yellow.svg" alt="HuggingFace Model Badge" />
+  </a>
+  <a href="https://huggingface.co/spaces/briaai/BRIA-3.2">
+    <img src="https://img.shields.io/badge/🤗%20HuggingFace-Space-blueviolet.svg" alt="HuggingFace Space Badge" />
+  </a>
+</p>
+<p align="center">
+<a href="[https://huggingface.co/spaces/briaai/BRIA-3.2](https://go.bria.ai/46gzn20)">
+    <img src=https://img.shields.io/badge/Check%20out%20our%20platform-8A2BE2 />
+  </a>
+</p>
+
 
 
 # TL;DR
@@ -65,7 +86,7 @@ Bria 3.2 is available everywhere you build, either as source-code and weights, C
 
 - **Patented Attribution Engine**: Our attribution engine is our way to compensate our data partners, powered by our proprietary and patented algorithms. 
 
-- **Enterprise-Ready**: Specifically designed for business applications, Bria AI 3.0 delivers high-quality, compliant imagery for a variety of commercial needs.
+- **Enterprise-Ready**: Specifically designed for business applications, Bria AI 3.2 delivers high-quality, compliant imagery for a variety of commercial needs.
 
 - **Customizable Technology**: Provides access to source code and weights for extensive customization, catering to specific business requirements.
 
@@ -80,34 +101,21 @@ Bria 3.2 is available everywhere you build, either as source-code and weights, C
 
 ### Code example using Diffusers 
 
-
+install the latest version of diffusers:
 ```python
-pip install diffusers, hf_hub_download
+pip install git+https://github.com/huggingface/diffusers
 ```
 
 
 
 ```python
-from huggingface_hub import hf_hub_download
-import os
-
-try:
-    local_dir = os.path.dirname(__file__)
-except:
-    local_dir = '.'
-    
-hf_hub_download(repo_id="briaai/BRIA-3.2", filename='pipeline_bria.py', local_dir=local_dir)
-hf_hub_download(repo_id="briaai/BRIA-3.2", filename='transformer_bria.py', local_dir=local_dir)
-hf_hub_download(repo_id="briaai/BRIA-3.2", filename='bria_utils.py', local_dir=local_dir)
-
 import torch
-from pipeline_bria import BriaPipeline, BriaTransformer2DModel
+from diffusers import BriaPipeline
 
-# trust_remote_code = True - allows loading a transformer which is not present at the transformers library(from transformer/bria_transformer.py)
-pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.2", torch_dtype=torch.bfloat16,trust_remote_code=True)
+pipe = BriaPipeline.from_pretrained("briaai/BRIA-3.2", torch_dtype=torch.bfloat16)
 pipe.to(device="cuda")
 
-prompt = "A portrait of a Beautiful and playful ethereal singer, golden designs, highly detailed, blurry background"
+prompt = "A vibrant birthday cake displayed on a festive table, frosted in smooth sky-blue icing with colorful sprinkles along the edges. Piped in bold white frosting across the top are the words “BIG BOY NOW” in playful, slightly uneven lettering. The cake is decorated with mini stars, balloons made of fondant, and a single candle burning brightly in the center. Soft, warm lighting highlights the texture of the frosting, while a blurred background of party decorations—streamers, confetti, and balloons—adds a joyful, celebratory atmosphere."
 negative_prompt = "Logo,Watermark,Ugly,Morbid,Extra fingers,Poorly drawn hands,Mutation,Blurry,Extra limbs,Gross proportions,Missing arms,Mutated hands,Long neck,Duplicate,Mutilated,Mutilated hands,Poorly drawn face,Deformed,Bad anatomy,Cloned face,Malformed limbs,Missing legs,Too many fingers"
 
 images = pipe(prompt=prompt, negative_prompt=negative_prompt, height=1024, width=1024).images[0]
@@ -124,5 +132,6 @@ images = pipe(prompt=prompt, negative_prompt=negative_prompt, height=1024, width
 
 4. Use 30-50 steps (higher is better)
 5. Use `guidance_scale` of  5.0
+6. run on Nvidia L40S or above for better results.
 
 
